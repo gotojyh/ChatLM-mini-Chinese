@@ -148,7 +148,8 @@ def train_my_BPE_tokenizer() -> None:
 
 if __name__ == '__main__':
 
-    cropus_file = PROJECT_ROOT + '/data/wiki.simple.txt'
+    #cropus_file = PROJECT_ROOT + '/data/wiki.simple.txt'
+    cropus_file= '/_/proj/blog/ddj/yw'
 
     train_my_huggingface_wiki_tokenizer(cropus_file=cropus_file, token_type='char') # token_type must be 'char' or 'byte'
 
